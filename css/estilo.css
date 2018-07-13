@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding-top: 100px;
+}
+img{
+    opacity: 0.3;
+}
+.titulo{
+    opacity: 1;
+}
+.juego{
+    width: 33%;
+    float: left;
+}
+.juego img{
+    width: 100%;
+}
+#control{
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+#control img{
+    display: block;
+    height: 25%;
+
+}
