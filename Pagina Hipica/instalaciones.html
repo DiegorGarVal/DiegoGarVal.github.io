@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Instalaciones</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+	<script>
+		function des(){
+			var caja= document.getElementById("p1")
+			p1.innerHTML="Contamos con un gran numero de box´s a su completa disposición,<br> con materiales de primera calidad para una estancia mas agradable."
+		}
+		function cu(){
+			var caja= document.getElementById("p2")
+			p2.innerHTML="Contamos con un fantastico picadero cubierto,<br> con musica ambiental para un mejor ambiente."
+		}
+		function bre(){
+			var caja= document.getElementById("p3")
+			p3.innerHTML="¡TRANQUILO! Nuestros clientes son muy sociables y <br> cuentan con mconocimentos suficientes para ayudatre en cualquier momento."
+		}
+
+
+			
+
+
+
+
+
+	</script>
+</head>
+<body>
+	<div id="laBarra">
+		<a href="principal.html"><img src="images/logo.png" id="logo"></a>
+
+		<div class="menu">
+		<ul>
+		<a href="clases.html"><li class="link">Classes</li></a>
+		<a href="instalaciones.html"><li class="link">Instalaciones</li></a>
+		<a href="ubicacion.html"><li class="link">Ubicacion</li></a>
+		<a href="registro.html"><li class="link">Registro</li></a>
+		</ul>
+		</div>
+	</div>
+
+	<div id="titulo">
+		<img src="images/encabezado.png" alt="50">
+	</div>
+
+	<div class="central">
+		<h1>INSTALACIONES</h1>
+
+	<div class="venta">
+		<h3>BOX´S PARA NUESTROS ANIMALES</h3>
+		<p id="p1"></p>
+		<img src="images/box.jpg" id="box" onmouseover="des()">
+		
+	</div>
+	<div class="venta">
+		<h3>PICADEROS PARA EL ENTRENAMIENTO</h3>
+		<p id="p2"></p>
+		<img src="images/picacubierto.jpg" id="pica" onmouseover="cu()">
+		
+	</div>
+
+	<div class="venta" id="abajo">
+		<h3>NUESTROS CLIENTES</h3>
+		<p id="p3" ></p>
+		<img src="images/cliente.jpg" id="clien" onmouseover="bre()">
+		
+	</div>
+	</div>
+
+	<div id="creditos"><center>website desarrollado por Diego "Del Porteño" S.L.V &#169; 2018</center>
+	</div>
+</body>
+</html>

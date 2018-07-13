@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registro</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+</head>
+<body>
+	<div id="laBarra">
+		<a href="principal.html"><img src="images/logo.png" id="logo"></a>
+		<div class="menu">
+			<ul>
+			<a href="clases.html"><li class="link">Classes</li></a>
+			<a href="instalaciones.html"><li class="link">Instalaciones</li></a>
+			<a href="ubicacion.html"><li class="link">Ubicacion</li></a>
+			<a href="registro.html"><li class="link">Registro</li></a>
+			</ul>
+		</div>
+	</div>
+	<div id="titulo">
+		<img src="images/encabezado.png" alt="50">
+	</div>
+
+
+	<div class=central>
+		<h1>REGISTRO</h1>
+		<form>
+			<label class="bater">Nombre</label>
+			<input type="text" width="120" placeholder="Nombre"required class="contenedores"><br>
+
+			<label class="bater">Apellidos</label>
+			<input type="text" width="120" placeholder="Apellidos"required class="contenedores"><br>
+
+			<label class="bater">Nº de contacto</label>
+			<input type="text" width="120" placeholder="telefono/movi" maxlength="9"required class="contenedores"><br>
+
+			<label class="bater">E-mail</label>
+			<input type="text" width="120" placeholder="E-mail"required class="contenedores"><br>
+
+			<label class="bater">Provincia</label>
+			<input list="provincia" placeholder="Provincia"required class="contenedores"> <br>
+				<datalist id="provincia">
+			    <option value="Madrid">
+			    <option value="Avila">
+			    <option value="Segovia">
+			    <option value="Toledo">
+			    <option value="Guadalajara">
+			    <option value="Cuenca">
+				</datalist>
+
+			<label class="bater">Intereses</label><br>
+				<input type="checkbox" name="interes" class="chequeo"><label class="selec">Doma clásica</label><br>
+				<input type="checkbox" name="interes" class="chequeo"><label class="selec">Doma vaquera</label><br>
+				<input type="checkbox" name="interes" class="chequeo"><label class="selec">Pupilaje</label><br>
+			</form>
+		
+			<div id="botones">
+				<input id="enviar" class="btn" type="button" value="ENVIAR">
+				<input id="borrar" class="btn" type="reset" value="BORRAR">
+			</div>
+		
+	</div>
+
+	<div id="creditos"><center>website desarrollado por Diego "Del Porteño" S.L.V &#169; 2018</center>
+	</div>
+	
+</body>
+</html> class="bater"

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hipica los Tarantos</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+	<script>
+		var numero=1
+		function iniciar(){
+			setInterval(cambiar,2000);
+		}
+		function cambiar(){
+			var imagen = document.getElementById("foto");
+			imagen.src="images/"+numero+".jpg";
+			numero=numero+1;
+			if  (numero==8){
+				numero=1;
+			}
+		}
+
+	</script>
+</head>
+<body onload="iniciar()">
+	<div id="laBarra">
+		<a href="principal.html"><img src="images/logo.png" id="logo"></a>
+		<div class="menu">
+			<ul>
+			<a href="clases.html"><li class="link">Classes</li></a>
+			<a href="instalaciones.html"><li class="link">Instalaciones</li></a>
+			<a href="ubicacion.html"><li class="link">Ubicacion</li></a>
+			<a href="registro.html"><li class="link">Registro</li></a>
+			</ul>
+		</div>
+	</div>
+
+	<div id="titulo">
+		<img src="images/encabezado.png" alt="50">
+	</div>
+
+	<div class="central">
+
+	<h1>BIENVENIDO A TU HIPICA</h1>
+
+		<img src="images/1.jpg" id="foto" width="500">
+
+	<div id="video">
+		<h1>SI TE GUSTARIA LLEGAR A ESTE NIVEL ¡NOSOTROS TE AYUDAMOS!</h1>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/GpWtT8bvjDs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</div>
+
+	</div>
+
+	<audio id="potro" autoplay>
+		<source src="musica/caballo.mp3"  type="audio/mpeg">
+	</audio>
+	<div id="creditos"><center>website desarrollado por Diego "Del Porteño" S.L.V &#169; 2018</center>
+	</div>
+	
+</body>
+</html>
