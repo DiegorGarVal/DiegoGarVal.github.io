@@ -1,0 +1,58 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+form{
+    width: 350px;
+}
+label{
+    display: block;
+    width: 350px;
+}
+.cajon{
+    display: block;
+    width: 300px;
+}
+
+.cahon{
+    margin-left: 5%;
+}
+
+.radio{
+    margin-left: 5%;
+}
+
+#button{    
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #000000;
+    background-color: #1584c5;
+    border-radius: 15px;
+    border: 3px double #033761;
+}
+#button:hover{
+    opacity: 0.8;
+    text-decoration: none;
+}
+#central{
+    width: 500px;
+    margin: auto;
+}
+#comunicado{
+    font-size: 15px;
+    color: #000000;
+    width: 500px;
+    background-color: #00000000;
+    border-color: #00000000;
+    padding: 10px;
+}

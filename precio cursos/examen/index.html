@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilo.css">
+	<script src="js/javascript.js"></script>
+	<title>Examen</title>
+</head>
+
+<body>
+	<div id="central">
+		<form>
+
+			<h1>SOLICITUD DE INFORMACION Y PRESUPUESTO</h1>
+
+
+			<h2>Datos personales</h2>
+			<hr>
+
+			<label for="name">Nombre y apellidos</label>
+			<input type="text" id="name" placeholder="Nombre y apellidos" class="cajon">
+			<br>
+
+			<label for="dni">DNI</label>
+			<input type="text" id="dni" placeholder="DNI" class="cajon">
+			<br>
+
+			<label>Fecha de nacimiento</label>
+			<input type="date" id="date" class="cajon">
+			<br>
+
+
+			<h2>Datos de contacto</h2>
+			<hr>
+
+			<label>Número de teléfono</label>
+			<input type="number" id="tlf" class="cajon">
+			<br>
+
+			<label>Correo electrónico</label>
+			<input type="email" id="correo" placeholder="correo@ejemplo.com" class="cajon">
+			<br>
+
+
+			<h2>Elija el tipo de curso que desee</h2>
+			<hr>
+
+			<label>Preferencias de contacto</label>
+			<br>
+			<input type="radio" name="radio" id="radio1" class="radio">Teléfono
+			<input type="radio" name="radio" id="radio2" class="radio">E-mail
+			<input type="radio" name="radio" id="radio3" class="radio">Correo Postal
+			<br>
+
+			<p>
+				<label>Seleccione el/los tipos de cursos que desee</label>
+				<br>
+				<input type="checkbox" name="curso" class="cahon" id="html"> HTML:5 - 300€
+				<br>
+				<input type="checkbox" name="curso" class="cahon" id="css"> CSS3 - 200€
+				<br>
+				<input type="checkbox" name="curso" class="cahon" id="introJava"> Introducción a javascript - 500€
+				<br>
+				<input type="checkbox" name="curso" class="cahon" id="javaScript"> Javascript avanzado - 400€
+				<br>
+				<input type="checkbox" name="curso" class="cahon" id="bootstrap"> BOOTSTRAP - 200€
+				<br>
+				<input type="checkbox" name="curso" class="cahon" id="jquery"> JQUERY - 300€
+				<br>
+				<input type="checkbox" name="curso" class="cahon" id="angular"> ANGULAR 5 - 800€
+			</p>
+
+			<input type="text" id="comunicado" value="" disabled>
+
+		</form>
+
+		<input type="button" value="VALIDAR" onclick="comprobar()" id="button">
+	</div>
+
+</body>
+
+</html>
